@@ -1,4 +1,4 @@
-FROM iojs:1.5
+FROM iojs:1.6
 
 RUN deps='python-yaml python-jinja2 python-httplib2 python-keyczar python-paramiko python-setuptools python-pkg-resources python-pip software-properties-common'; \
     set -x \
